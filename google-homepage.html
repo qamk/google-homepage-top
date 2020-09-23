@@ -19,27 +19,41 @@
                 <a href="#">Gmail</a>
                 <a href="#">Images</a>
                 <a href="#">...</a>
-                <button></button>
+                <button type=button id="sign-in">Sign-in</button>
             </div>
         </header>
 
         <img src="#" alt="Google search page logo (says 'Google').">
-        <form action="#">
-            <div>
-                <input type="search" name="search" value="">
-            </div>
-            <div>
-                <input type="submit" name="search" value="Google Search" disabled>
-                <input type="button" name="search" value="I'm feeling lucky">
-            </div>
-        </form>
+        <main>
+            <form action="">
+                <div>
+                    <input type="search" name="search" value="">
+                </div>
+                <section> <!-- more useful to fetch the search itself for value but alas-->
+                    <input type="submit" name="search" value="Google Search" disabled>
+                    <button id="lucky-button" type="button" name="search">I'm feeling lucky</button>
+                </section>
+            </form>
+        </main>
         <p>
             <a href="#">A news story link purpose:</a> a heading for the story
         </p>
 
         <footer>
+            <div>
+                United Kingdom
+            </div>
             <section>
-                
+                <div>
+                    <span>Privacy</span>
+                    <span>Terms</span>
+                    <span>Settings</span>
+                </div>
+                <div>
+                    <span>Advertising</span>
+                    <span>Business</span>
+                    <span>How Search Works</span>
+                </div>
             </section>
         </footer>
 

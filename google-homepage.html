@@ -24,21 +24,24 @@
             </div>
         </header>
 
-        <img src="#" alt="Google search page logo (says 'Google').">
-        <main>
-            <form action="">
-                <div class="search-bar-container">
-                    <input type="search" name="search" value="">
-                </div>
-                <section class="search-button-box"> <!-- more useful to fetch the search itself for value but alas-->
-                    <input type="submit" name="search" value="Google Search" disabled>
-                    <button id="lucky-button" type="button" name="search">I'm feeling lucky</button>
-                </section>
-            </form>
+        
+        <main class="main-box">
+            <div class="form-box">
+                <img id="google-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google search page logo (says 'Google').">
+                <form action="">
+                    <div class="search-bar-box">
+                        <input id="search-bar" type="search" name="search" value="" maxlength="2048">
+                    </div>
+                    <section class="search-button-box"> <!-- more useful to fetch the search itself for value but alas-->
+                        <input type="submit" name="search" value="Google Search">
+                        <input id="lucky-button" type="button" name="search" value="I'm feeling lucky">
+                    </section>
+                </form>
+                <p>
+                    <a href="#">A news story link purpose:</a> a heading for the story
+                </p>
+            </div>
         </main>
-        <p>
-            <a href="#">A news story link purpose:</a> a heading for the story
-        </p>
 
         <footer class="footer-box">
             <div id="footer-loc">
@@ -46,17 +49,17 @@
             </div>
             <section class="footer-links-box">
                 <div class="footer-links-top-row">
-                    <span>
-                        <a href="#">Privacy</a>
-                        <a href="#">Terms</a>
-                        <a href="#">Settings</a>
-                    </span>
-                </div>
-                <div>
-                    <span>
+                    <span class="footer-links">
                         <a href="#">Advertising</a>
                         <a href="#">Business</a>
                         <a href="#">How Search Works</a>
+                    </span>
+                </div>
+                <div class="footer-links-bottom-row">
+                    <span class="footer-links">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Settings</a>
                     </span>
                 </div>
             </section>

@@ -1,7 +1,61 @@
 
+.body {
+    font-family: sans-serif;
+}
 .header-box {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    height: 30px;
+}
+.header-box a, .header-box button {
+    padding: 0 10px;
+}
+.main-box {
+   text-align: center;
+} 
+#google-img {
+    height: 100px;
+    padding-top: 100px;
+}
+#search-bar {
+    padding-top: 10px;
+    border-radius: 45px;
+    width: 500px;
+}
+#search-bar {
+    border: 1px solid #dfe1e5;
+}
+.search-button-box input {
+    padding: 5px;
+    margin: 10px 5px 0 5px;
+}
+.search-button-box input:hover {
+    box-shadow: 0 1px rgba(0,0,0,0.1);
+}
+
+
+.footer-box {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: #f2f2f2;
+}
+.footer-links-box {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#footer-loc {
+    padding: 0 0 0 27px;
+    line-height: 60px;
+}
+.footer-links-box a {
+    padding-left: 27px;
+}
+.footer-links-bottom-row {
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 20px;
 }
